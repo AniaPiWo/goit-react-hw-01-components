@@ -1,0 +1,23 @@
+/* Transactions.module.css */
+.transaction_history {
+  max-width: 600px;
+  margin-top: 60px;
+  border: 1px solid #ddd;
+}
+
+.transaction_history th,
+.transaction_history td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.transaction_history th {
+  background-color: lightskyblue;
+  color: #333;
+}
+
+.transaction_history tr:hover {
+  background-color: #f0f8ff; /* Light blue on hover */
+}
